@@ -60,7 +60,7 @@ Enter a temperature value (0 – 1.5)
 Receive a structured JSON response
 
 📁 Project Structure
-Temperature_Structured_AI_Response_Generator/
+Structured_AI_Generator/
 │── app/
 │   │── __init__.py
 │   │── config.py
