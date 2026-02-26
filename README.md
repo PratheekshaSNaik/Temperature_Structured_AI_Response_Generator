@@ -4,6 +4,8 @@ A Python-based AI system that generates strictly structured JSON responses with 
 
 This project explores how response temperature affects creativity and structural reliability in Large Language Models.
 
+---
+
 🚀 Features
 
 🌡 Temperature-controlled response generation
@@ -18,6 +20,8 @@ This project explores how response temperature affects creativity and structural
 
 🧩 Modular and clean project architecture
 
+---
+
 🛠️ Tech Stack
 
 Python
@@ -28,7 +32,10 @@ Pydantic
 
 python-dotenv
 
+---
+
 📦 Installation
+
 1. Clone the repository
 git clone https://github.com/your-username/Temperature_Structured_AI_Response_Generator.git
 cd Temperature_Structured_AI_Response_Generator
@@ -51,6 +58,9 @@ Make sure .env is added to .gitignore:
 .env
 ▶️ Run the Application
 python main.py
+
+---
+
 🎮 Usage
 
 Enter your prompt
@@ -59,7 +69,10 @@ Enter a temperature value (0 – 1.5)
 
 Receive a structured JSON response
 
+---
+
 📁 Project Structure
+
 Structured_AI_Generator/
 │── app/
 │   │── __init__.py
@@ -71,6 +84,9 @@ Structured_AI_Generator/
 │── .gitignore
 │── requirements.txt
 │── README.md
+
+---
+
 🧠 Example
 
 Input:
@@ -89,6 +105,9 @@ Output:
     ],
     "conclusion": "AI continues to transform industries through intelligent automation."
 }
+
+---
+
 🌡 Temperature Behavior
 
 0.0 – 0.3 → Deterministic and predictable
@@ -99,11 +118,16 @@ Output:
 
 Higher temperatures may increase variation and slightly reduce structural stability.
 
+---
+
 ⚙️ Configuration
 
 You can change the model inside config.py:
 
 MODEL_NAME = "llama-3.1-8b-instant"
+
+---
+
 🌱 Future Improvements
 
 📊 Multi-temperature response comparison
@@ -116,8 +140,12 @@ MODEL_NAME = "llama-3.1-8b-instant"
 
 🔧 Automatic JSON repair mechanism
 
+---
+
 🙌 Acknowledgements
 
 Groq for fast LLM inference
 
 Open-source community
+
+---
