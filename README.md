@@ -1,32 +1,34 @@
-🔥 Temperature Structured AI Response Generator (Groq + Python):
+🔥 Temperature Structured AI Response Generator (Groq + Python)
 
 A Python-based AI system that generates strictly structured JSON responses with temperature-controlled variation using the Groq API.
+
 This project explores how response temperature affects creativity and structural reliability in Large Language Models.
 
----
-
-🚀 Features:
+🚀 Features
 
 🌡 Temperature-controlled response generation
+
 📦 Strict JSON structured output
+
 🧠 Schema validation using Pydantic
+
 🔐 Secure API key using .env
+
 ⚡ Fast inference using Groq LLMs
+
 🧩 Modular and clean project architecture
 
----
-
-🛠️ Tech Stack:
+🛠️ Tech Stack
 
 Python
+
 Groq API
+
 Pydantic
+
 python-dotenv
 
----
-
-📦 Installation:
-
+📦 Installation
 1. Clone the repository
 git clone https://github.com/your-username/Temperature_Structured_AI_Response_Generator.git
 cd Temperature_Structured_AI_Response_Generator
@@ -49,19 +51,16 @@ Make sure .env is added to .gitignore:
 .env
 ▶️ Run the Application
 python main.py
-
----
-🎮 Usage:
+🎮 Usage
 
 Enter your prompt
+
 Enter a temperature value (0 – 1.5)
+
 Receive a structured JSON response
 
----
-
-📁 Project Structure:
-
-Structured_AI_Generator/
+📁 Project Structure
+Temperature_Structured_AI_Response_Generator/
 │── app/
 │   │── __init__.py
 │   │── config.py
@@ -72,16 +71,15 @@ Structured_AI_Generator/
 │── .gitignore
 │── requirements.txt
 │── README.md
-
----
-
-🧠 Example:
+🧠 Example
 
 Input:
+
 What is Artificial Intelligence?
 Temperature: 0.7
 
 Output:
+
 {
     "summary": "Artificial Intelligence (AI) is a branch of computer science focused on building intelligent systems.",
     "key_points": [
@@ -91,39 +89,35 @@ Output:
     ],
     "conclusion": "AI continues to transform industries through intelligent automation."
 }
-
----
-
-🌡 Temperature Behavior:
+🌡 Temperature Behavior
 
 0.0 – 0.3 → Deterministic and predictable
+
 0.5 – 0.8 → Balanced creativity
+
 1.0 – 1.5 → Highly creative and diverse
 
 Higher temperatures may increase variation and slightly reduce structural stability.
 
----
-
-⚙️ Configuration:
+⚙️ Configuration
 
 You can change the model inside config.py:
+
 MODEL_NAME = "llama-3.1-8b-instant"
-
----
-
-🌱 Future Improvements:
+🌱 Future Improvements
 
 📊 Multi-temperature response comparison
+
 🧠 Response entropy analysis
+
 🌐 Web interface (FastAPI / Flask)
+
 📝 Logging and experiment tracking
+
 🔧 Automatic JSON repair mechanism
 
----
-
-🙌 Acknowledgements:
+🙌 Acknowledgements
 
 Groq for fast LLM inference
-Open-source community
 
----
+Open-source community
