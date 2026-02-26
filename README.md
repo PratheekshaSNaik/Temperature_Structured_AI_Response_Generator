@@ -1,4 +1,4 @@
-🔥 Temperature Structured AI Response Generator (Groq + Python)
+# 🔥 Temperature Structured AI Response Generator (Groq + Python)
 
 A Python-based AI system that generates **strictly structured JSON responses** with **temperature-controlled variation** using the Groq API.
 
@@ -163,5 +163,3 @@ MODEL_NAME = "llama-3.1-8b-instant"
 
 * Groq for fast LLM inference
 * Open-source community
-
----
